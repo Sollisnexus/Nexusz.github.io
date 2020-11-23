@@ -24,7 +24,8 @@ A Pokemon Statistics Discord bot for the use of calculating catch statistics for
 <h2>Commands</h2>
 	<li><code class="language-plaintext highlighter-rouge">%</code> is the default prefix, it can be changed using <code class="language-plaintext highlighter-rouge">%changeprefix [prefix]</code>or<code class="language-plaintext highlighter-rouge">[custom prefix]changeprefix [prefix]</code></li>
 	<li>Message deletion(my bots way of keeping clean) is <code class="language-plaintext highlighter-rouge">False</code> by default, it can be changed using <code class="language-plaintext highlighter-rouge">%changedelete (True/Yes/Y)/(False/No/N)</code>or<code class="language-plaintext highlighter-rouge">[custom prefix]changedelete (True/Yes/Y)/(False/No/N)</code></li>
-    <li><code class="language-plaintext highlighter-rouge">[ ]</code> Indicate Required Fields</li>
+    	<li><code class="language-plaintext highlighter-rouge">*</code> Optional Shiny Toggle</li>
+	<li><code class="language-plaintext highlighter-rouge">[ ]</code> Indicate Required Fields</li>
 	<li><code class="language-plaintext highlighter-rouge">( )</code> Indicate Optional Fields</li>
 
 <table>
@@ -38,17 +39,17 @@ A Pokemon Statistics Discord bot for the use of calculating catch statistics for
 <tbody>	
 	<tr>
 		<td><code class="language-plaintext highlighter-rouge">%catch</code></td>
-		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon] (Ball)</code></td>
+		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]* (Ball)</code></td>
 		<td>Shows a detailed summary of catch rates for a given Pokémon & Ball</td>
 	</tr>
 	<tr>
 		<td><code class="language-plaintext highlighter-rouge">%den</code></td>
-		<td><code class="language-plaintext highlighter-rouge">[Den #] / [Pokemon]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">[Den #] / [Pokemon]*</code></td>
 		<td>Shows a list of Pokémon that belong to a den or Pokemon in which dens including their Non-HA/HAs</td>
 	</tr>
 <tr>
 		<td><code class="language-plaintext highlighter-rouge">%pokedex</code></td>
-		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]*</code></td>
 		<td>Shows a detailed summary of a Pokémon’s latest Statistics (Gen 8 / Gen 7)</td>
 	</tr>
 <tr>
@@ -84,12 +85,12 @@ A Pokemon Statistics Discord bot for the use of calculating catch statistics for
 <tbody>	
 	<tr>
 		<td><code class="language-plaintext highlighter-rouge">%godex</code></td>
-		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]*</code></td>
 		<td>Dex Entry for the selected pokemon (Shows available shinies).</td>
 	</tr>
 	<tr>
 		<td><code class="language-plaintext highlighter-rouge">%gopvp</code></td>
-		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon] [Level] [Atk_IV] [Def_IV] [HP_IV]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">(Form) [Pokemon]* [Level] [Atk_IV] [Def_IV] [HP_IV]</code></td>
 		<td>Compares your pokemon to the best of each league.</td>
 	</tr>
 	<tr>
@@ -99,17 +100,17 @@ A Pokemon Statistics Discord bot for the use of calculating catch statistics for
 	</tr>
   <tr>
 		<td><code class="language-plaintext highlighter-rouge">%gohundo</code></td>
-		<td><code class="language-plaintext highlighter-rouge">[Pokemon]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">[Pokemon]*</code></td>
 		<td>Shows the CP of a hundred percent IV Pokemon.</td>
 	</tr>
   <tr>
 		<td><code class="language-plaintext highlighter-rouge">%gopure</code></td>
-		<td><code class="language-plaintext highlighter-rouge">[Pokemon] [Atk_IV] [Def_IV] [HP_IV]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">[Pokemon]* [Atk_IV] [Def_IV] [HP_IV]</code></td>
 		<td>Shows the example before and after of purifying a shadow Pokemon.</td>
 	</tr>
   <tr>
 		<td><code class="language-plaintext highlighter-rouge">%gotohome</code></td>
-		<td><code class="language-plaintext highlighter-rouge">(form) [Pokemon] [Level] [Atk_IV] [Def_IV] [HP_IV]</code></td>
+		<td><code class="language-plaintext highlighter-rouge">(form) [Pokemon]* [Level] [Atk_IV] [Def_IV] [HP_IV]</code></td>
 		<td>Shows a rough estimation of Pokemon transfer from Go to Home Stat Translation.</td>
 	</tr>
   <tr>
